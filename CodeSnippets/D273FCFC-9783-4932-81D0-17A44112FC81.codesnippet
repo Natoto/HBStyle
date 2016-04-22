@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>imageview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIImageView *)&lt;#ImageView#&gt;
+{
+    if (!&lt;#ImageView#&gt;) {
+        UIImageView *imageView = [[UIImageView alloc] initWithFrame:&lt;#CGRect#&gt;];
+        imageView.image = &lt;#[UIImage imageNamed:@"logo_about"]#&gt;;
+        imageView.contentMode = &lt;#UIViewContentModeScaleAspectFill#&gt;;
+        imageView.clipsToBounds = YES;
+        &lt;#imageView.layer.cornerRadius = 3.0;#&gt;
+        &lt;#imageView.layer.borderColor = [UIColor whiteColor].CGColor;#&gt;
+        &lt;#imageView.layer.borderWidth = 1.0;#&gt;
+        [&lt;#self.view#&gt; addSubview:imageView];
+        &lt;#ImageView#&gt; = imageView;
+    }
+    return &lt;#ImageView#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D273FCFC-9783-4932-81D0-17A44112FC81</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>imageview</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIImageView - Getter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

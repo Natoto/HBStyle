@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ttf</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>-(UITextField *)&lt;#textField#&gt;{
+    if (!&lt;#textField#&gt;) {
+        UITextField * textField = [[UITextField alloc] initWithFrame:&lt;#CGRect#&gt;];
+        textField.backgroundColor = &lt;#[UIColor clearColor]#&gt;;
+        textField.borderStyle = &lt;#UITextBorderStyleNone#&gt;;
+        textField.contentVerticalAlignment = &lt;#UIControlContentVerticalAlignmentCenter#&gt;;
+        textField.placeholder = @"&lt;#String#&gt;";
+        textField.tintColor = &lt;#[UIColor blackColor]#&gt;;
+        [textField addTarget:self action:@selector(&lt;#selector#&gt;) forControlEvents:&lt;#UIControlEventEditingChanged#&gt;];
+        textField.keyboardType = &lt;#UIKeyboardTypeNumberPad#&gt;;
+        textField.clearButtonMode = &lt;#UITextFieldViewModeWhileEditing#&gt;;
+        textField.font = &lt;#[UIFont systemFontOfSize:16]#&gt;;
+        &lt;#UIImageView * iconImageView = [[UIImageView alloc] init];#&gt;
+        textField.leftView = &lt;#iconImageView#&gt;;
+        textField.leftViewMode = &lt;#UITextFieldViewModeAlways#&gt;;
+        
+        &lt;#textField.layer.cornerRadius = 2;#&gt;
+        &lt;#textField.layer.borderColor = [UIColor whiteColor].CGColor;#&gt;
+        &lt;#textField.layer.borderWidth = 1;#&gt;
+        [&lt;#self.view#&gt; addSubview:textField];
+        &lt;#textField#&gt; = textField;
+    }
+    return &lt;#textField#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>235CB0F8-CE96-4FC0-A97F-60E7B2191BD5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ttf</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITextField - Getter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

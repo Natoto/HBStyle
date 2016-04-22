@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ggg</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>-(UITapGestureRecognizer *)&lt;#tapGesture#&gt;{
+    if (!&lt;#tapGesture#&gt;) {
+        &lt;#tapGesture#&gt; = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(&lt;#selector#&gt;)];
+        _tapGesture.numberOfTapsRequired = &lt;#tapNum#&gt;;
+    }
+    return _tapGesture;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D28A627E-A673-49E0-A32C-87EE000EC013</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ggg</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITapGestureRecognizer - Getter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
