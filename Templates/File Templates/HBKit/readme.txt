@@ -7,4 +7,7 @@ https://github.com/uxyheaven/XYXcodeTemplate这里有笔者建立的一个简单
 —
 
 cd /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/
+
+cd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/
+
 找到 File Templates 把HBTemplete 文件拷贝进去就可以了 

@@ -12,7 +12,7 @@
 #import <Foundation/Foundation.h>
 #import "___VARIABLE_cocoaSubclass___.h"
 
-@interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_cocoaSubclass___
+@interface ___FILEBASENAME___: ___VARIABLE_cocoaSubclass___
 
 // custom code
 

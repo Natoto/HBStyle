@@ -1,9 +1,11 @@
 //
-//  __  __          ____           _          _
-//  \ \/ / /\_/\   /___ \  _   _  (_)   ___  | | __
-//   \  /  \_ _/  //  / / | | | | | |  / __| | |/ /
-//   /  \   / \  / \_/ /  | |_| | | | | (__  |   <
-//  /_/\_\  \_/  \___,_\   \__,_| |_|  \___| |_|\_\
+//       _      ______
+//	/\ _\ \    /\  __ \
+//	\   _  \   \ \  __<
+//	 \ \  \ \   \ \_____\
+//	  \/   \/    \/_____/
+//
+//
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //___COPYRIGHT___
@@ -12,6 +14,10 @@
 #import "___FILEBASENAME___.h"
 
 @interface ___FILEBASENAME___ ()
+#pragma mark- as
+
+#pragma mark- model
+
 
 @end
 
@@ -23,32 +29,45 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self configcellstructs];
+    //注册cellclase：  TABLEVIEW_REGISTERXIBCELL_CLASS(TABLEVIEW,CELLCLSSTR)
+    
 }
-// 创建页面内控件的地方。
-- (void)uxy_createViews
+
+
+// 配置cellstructs
+- (void)configcellstructs
 {
     
 }
 
-// 创建页面内控件事件的地方
-- (void)uxy_createEvents
-{
-    
-}
 
-// 如果页面加载过程需要读取数据, 则写在这个地方。
-- (void)uxy_loadData
-{
-    
-}
 #pragma mark - api
+//下拉刷新
+-(void)refreshView
+{
+    
+}
+
+//上拉更多
+-(void)getNextPageView
+{
+    
+}
 
 #pragma mark - model event
 #pragma mark 1 notification
 #pragma mark 2 KVO
 
 #pragma mark - view event
+
 #pragma mark 1 target-action
+#pragma mark - 响应Cell点击
+GET_CELL_SELECT_ACTION(cellstruct)
+{
+    
+}
+
 #pragma mark 2 delegate dataSource protocol
 
 #pragma mark - private

@@ -9,10 +9,13 @@
 //___COPYRIGHT___
 //
 
-#import <Foundation/Foundation.h>
-#import "___VARIABLE_cocoaSubclass___.h"
+#import "___FILEBASENAME___.h"
 
-@interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_cocoaSubclass___
+@interface ___FILEBASENAME___ ()
+
+@end
+
+@implementation ___FILEBASENAME___
 
 // custom code
 
