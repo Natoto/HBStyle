@@ -16,18 +16,24 @@
 	<key>Options</key>
 	<array>
 		<dict>
-			<key>Description</key>
-			<string>The name of the file to create</string>
+			<key>Default</key>
+			<string>true</string>
 			<key>Identifier</key>
-			<string>productName</string>
+			<string>XIB</string>
 			<key>Name</key>
-			<string>File:</string>
-			<key>NotPersisted</key>
-			<true/>
-			<key>Required</key>
-			<true/>
+			<string>Also create plist file</string>
+			<key>Description</key>
+			<string>Whether to create a plist file with the same name</string>
 			<key>Type</key>
-			<string>text</string>
+			<string>checkbox</string>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>cocoaTouchSubclass</key>
+				<array>
+					<string>HBBaseCollectionViewController</string>
+					<string>BaseCollectionViewController</string>
+				</array>
+			</dict>
 		</dict>
 		<dict>
 			<key>Default</key>
@@ -50,6 +56,20 @@
 				<string>HBBaseTableViewController</string>
 				<string>BaseTableViewController</string>
 			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>The name of the file to create</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>File:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
 		</dict>
 	</array>
 	<key>SortOrder</key>

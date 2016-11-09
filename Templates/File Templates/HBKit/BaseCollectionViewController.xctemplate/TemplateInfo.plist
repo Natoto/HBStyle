@@ -51,9 +51,29 @@
 				<string>HBBaseCollectionViewController</string>
 			</array>
 		</dict>
+		<dict>
+			<key>Default</key>
+			<string>true</string>
+			<key>Identifier</key>
+			<string>XIB</string>
+			<key>Name</key>
+			<string>Also create plist file</string>
+			<key>Description</key>
+			<string>Whether to create a plist file with the same name</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>cocoaTouchSubclass</key>
+				<array>
+					<string>HBBaseCollectionViewController</string>
+					<string>BaseCollectionViewController</string>
+				</array>
+			</dict>
+		</dict>
 	</array>
 	<key>SortOrder</key>
-	<string>4</string>
+	<string>2</string>
 	<key>Summary</key>
 	<string>An empty Objective-C file</string>
 </dict>

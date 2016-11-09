@@ -24,6 +24,7 @@
 
 - (void)awakeFromNib {
     //使用xib时在此添加初始化配置
+    [super awakeFromNib];
 }
 
 -(void)setcellTitle:(NSString *)title
@@ -33,7 +34,7 @@
 
 -(void)setcellProfile:(NSString *)profile
 {
-//    [super setcellProfile:profile];
+    //    [super setcellProfile:profile];
 }
 
 
@@ -62,20 +63,18 @@
 /*
  -(IBAction)buttonTap:(UIButton *)sender
  {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(hbtableViewCell:subView:TapWithTag:)]) {
-        [self.delegate hbtableViewCell:self subView:sender TapWithTag:sender.tag];
-    }
+ if (self.delegate && [self.delegate respondsToSelector:@selector(hbtableViewCell:subView:TapWithTag:)]) {
+ [self.delegate hbtableViewCell:self subView:sender TapWithTag:sender.tag];
+ }
  }
  */
 #pragma mark - getter / setter
-#pragma mark -
-
 
 /*
-+(CGFloat)heightOfCell
-{
-    return 44.0
-}*/
+ +(CGFloat)heightOfCell
+ {
+ return 44.0
+ }*/
 
 
 @end

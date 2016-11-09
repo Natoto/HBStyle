@@ -24,6 +24,7 @@
 
 - (void)awakeFromNib {
     //使用xib时在此添加初始化配置
+    [super awakeFromNib];
 }
 
 -(void)setcellTitle:(NSString *)title
@@ -68,8 +69,6 @@
  }
  */
 #pragma mark - getter / setter
-#pragma mark -
-
 
 /*
 +(CGFloat)heightOfCell

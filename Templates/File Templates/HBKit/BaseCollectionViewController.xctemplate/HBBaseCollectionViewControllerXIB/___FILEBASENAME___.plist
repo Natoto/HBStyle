@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>section0_0</key>
+	<dict>
+		<key>sectioncolor</key>
+		<string>0x3ffee</string>
+		<key>title</key>
+		<string>第一个CELL</string>
+		<key>accessory</key>
+		<true/>
+		<key>selectionStyle</key>
+		<true/>
+		<key>cellclass</key>
+		<string>HBBaseTableViewCell</string>
+		<key>xibvalue</key>
+		<string></string>
+		<key>sectionfont</key>
+		<string>15</string>
+		<key>cellheight</key>
+		<real>44</real>
+		<key>sel_selector_str</key>
+		<string>selectAction:</string>
+		<key>showTopLine</key>
+		<false/>
+		<key>showBottomLine</key>
+		<false/>
+		<key>dictionary</key>
+		<dict>
+			<key>key_cellstruct_background</key>
+			<string>random</string>
+		</dict>
+		<key>detailtitle</key>
+		<string></string>
+		<key>CellStyleValue</key>
+		<integer>1</integer>
+		<key>titleLabelNumberOfLines</key>
+		<integer>0</integer>
+		<key>sectionfooter</key>
+		<string></string>
+		<key>picture</key>
+		<string></string>
+		<key>titlecolor</key>
+		<string></string>
+		<key>value</key>
+		<string></string>
+		<key>subvalue2</key>
+		<string></string>
+		<key>sectionheight</key>
+		<integer>0</integer>
+		<key>titlefontsize</key>
+		<integer>13</integer>
+		<key>textAlignment</key>
+		<string></string>
+		<key>key_indexpath</key>
+		<string></string>
+		<key>sectiontitle</key>
+		<string></string>
+		<key>sectionfooterheight</key>
+		<string></string>
+		<key>rightValue</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>

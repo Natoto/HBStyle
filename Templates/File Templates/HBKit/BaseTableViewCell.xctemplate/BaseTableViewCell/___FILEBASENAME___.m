@@ -16,7 +16,6 @@
 @interface ___FILEBASENAME___ ()
 #pragma mark- as
 
-#pragma mark- model
 
 @end
 
@@ -35,6 +34,7 @@
 
 - (void)awakeFromNib {
     //使用xib时在此添加初始化配置
+    [super awakeFromNib];
 }
 
 -(void)setcellTitle:(NSString *)title
@@ -75,9 +75,8 @@
     }
  }
  */
-#pragma mark - getter / setter
-#pragma mark -
 
+#pragma mark - getter / setter
 
 /*
 +(CGFloat)heightOfCell

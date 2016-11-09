@@ -21,20 +21,10 @@
 @end
 
 @implementation ___FILEBASENAME___
-/*
-- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
-{
-    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    if (self)
-    {
-        //使用类名alloc时，在此添加初始化配置
-    }
-    return self;
-}
- */
 
 - (void)awakeFromNib {
     //使用xib时在此添加初始化配置
+    [super awakeFromNib];
 }
 
 -(void)setcellTitle:(NSString *)title
@@ -44,14 +34,17 @@
 
 -(void)setcellProfile:(NSString *)profile
 {
-//    [super setcellProfile:profile];
+    //    [super setcellProfile:profile];
 }
+
+
 
 -(void)setcelldictionary:(NSMutableDictionary *)dictionary
 {
     [super setcelldictionary:dictionary];
 }
- 
+
+
 - (void)layoutSubviews
 {
     [super layoutSubviews];
@@ -70,20 +63,18 @@
 /*
  -(IBAction)buttonTap:(UIButton *)sender
  {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(hbtableViewCell:subView:TapWithTag:)]) {
-        [self.delegate hbtableViewCell:self subView:sender TapWithTag:sender.tag];
-    }
+ if (self.delegate && [self.delegate respondsToSelector:@selector(hbtableViewCell:subView:TapWithTag:)]) {
+ [self.delegate hbtableViewCell:self subView:sender TapWithTag:sender.tag];
+ }
  }
  */
 #pragma mark - getter / setter
-#pragma mark -
-
 
 /*
-+(CGFloat)heightOfCell
-{
-    return 44.0
-}*/
+ +(CGFloat)heightOfCell
+ {
+ return 44.0
+ }*/
 
 
 @end

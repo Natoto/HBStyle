@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>gcs</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>-(CELL_STRUCT *)cell_struct_&lt;#obj#&gt;{
+    if (!_cell_struct_&lt;#obj#&gt;) {
+        _cell_struct_&lt;#obj#&gt; = [CELL_STRUCT cell_x_x_struct:&lt;#title#&gt; detailvalue:nil target:self selectAction:@selector(selectAction:)];
+  }
+    return _cell_struct_&lt;#obj#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2B22E163-906B-4A9A-929D-3D95118CF579</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>gcs</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>cellstruct  Getter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
