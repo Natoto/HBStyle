@@ -50,11 +50,7 @@
     //如果需要在此添加
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-    
-    // Configure the view for the selected state
-}
+
 #pragma mark - private
 /*
  -(IBAction)buttonTap:(UIButton *)sender

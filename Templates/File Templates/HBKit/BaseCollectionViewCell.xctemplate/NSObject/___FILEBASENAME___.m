@@ -13,8 +13,59 @@
 
 #import "___FILEBASENAME___.h"
 
-@implementation ___FILEBASENAMEASIDENTIFIER___
+@interface ___FILEBASENAME___ ()
+#pragma mark- as
 
-// custom code
+
+@end
+
+@implementation ___FILEBASENAME___
+
+- (void)awakeFromNib {
+    //使用xib时在此添加初始化配置
+    [super awakeFromNib];
+}
+
+-(void)setcellTitle:(NSString *)title
+{
+    
+}
+
+-(void)setcellProfile:(NSString *)profile
+{
+    //    [super setcellProfile:profile];
+}
+
+
+
+-(void)setcelldictionary:(NSMutableDictionary *)dictionary
+{
+    [super setcelldictionary:dictionary];
+}
+
+
+- (void)layoutSubviews
+{
+    [super layoutSubviews];
+    //如果需要在此添加
+}
+ 
+#pragma mark - private
+/*
+ -(IBAction)buttonTap:(UIButton *)sender
+ {
+ if (self.delegate && [self.delegate respondsToSelector:@selector(hbtableViewCell:subView:TapWithTag:)]) {
+ [self.delegate hbtableViewCell:self subView:sender TapWithTag:sender.tag];
+ }
+ }
+ */
+#pragma mark - getter / setter
+
+/*
+ +(CGFloat)heightOfCell
+ {
+ return 44.0
+ }*/
+
 
 @end
