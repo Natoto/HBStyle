@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dox</string>
+	<string>setTitleColorForButton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**
- *  &lt;#string#&gt;
- */</string>
+	<string>[&lt;#button#&gt; setTitleColor:&lt;#color#&gt; forState:UIControlStateNormal];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>48DE1D79-02B2-47AC-9046-25DD6AF3ED6D</string>
+	<string>FFCD7C84-551D-467B-938D-BB0B2E9A31AF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>dox</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Comment</string>
+	<string>set UIButton Title Color</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

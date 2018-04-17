@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tq_ape_ui_common</string>
+	<string>viewDidLoad</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -11,28 +11,14 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = VIEW_BG_COLOR;
-    UIView * headerView = [HeaderUtils addCustomHeaderToView:self.view];
-    UIButton * returnButton = [HeaderUtils addCustomReturnButtonToView:headerView];
-    [returnButton addTouchTarget:self action:@selector(returnButtonPressed:)];
-    [HeaderUtils addTitleLabelToView:headerView].text = @"&lt;#title#&gt;";
-    
-    [HeaderUtils addHeaderShadowToView:self.view];
-}
-
-- (void)viewDidUnload {
-    [super viewDidUnload];
-}
-
-</string>
+    &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B564B787-4757-4E8E-A8A2-1299CE7B5420</string>
+	<string>2C6B159A-D934-44B7-B110-1BF1D4B89707</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>tq ape ui common</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tq_ape_ui_common</string>
+	<string>viewDidLoad</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
