@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>create collectionview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> 
+		- (UICollectionView *)collectionView {
+    if (!_collectionView) {
+        
+        UICollectionViewFlowLayout * layout = [[UICollectionViewFlowLayout alloc] init];
+        layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+        layout.minimumLineSpacing = 5;
+        layout.minimumInteritemSpacing = 5;
+        layout.sectionInset = UIEdgeInsetsMake(0, 10, 0, 10);
+        layout.itemSize = CGSizeMake(self.bounds.size.width/4, self.bounds.size.width/4 + 20);
+        if (self.dataSource && [self.dataSource respondsToSelector:@selector(cellItemSizeWithPannel:)]) {
+            CGSize size = [self.dataSource cellItemSizeWithPannel:self];
+            layout.itemSize = size;
+        }
+        CGRect frame = CGRectMake(0, 0, self.bounds.size.width, [self contentheight]);
+        UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:layout];
+        collectionView.dataSource = self;
+        collectionView.delegate = self;
+        collectionView.backgroundColor = [UIColor whiteColor];
+        [self addSubview:collectionView];
+        [collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.edges.equalTo(self);
+        }];
+        [collectionView registerClass:[SODAEditItemCell class] forCellWithReuseIdentifier:@"cell"];
+     
+        _collectionView = collectionView;
+    }
+    return _collectionView;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D273FCFC-9783-4932-81D0-17A44112FC81</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>创建collectionview</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>create collectionview</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

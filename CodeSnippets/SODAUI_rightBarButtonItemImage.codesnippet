@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIBarButtonItem *&lt;#itemName#&gt; = [QMUINavigationButton barButtonItemWithImage:UIImageMake(@"&lt;#imageNamed#&gt;") position:QMUINavigationButtonPositionRight target:self action:@selector(handle&lt;#ItemName#&gt;Event:)];</string>
+	<string>UIBarButtonItem *&lt;#itemName#&gt; = [SODAUINavigationButton barButtonItemWithImage:UIImageMake(@"&lt;#imageNamed#&gt;") position:SODAUINavigationButtonPositionRight target:self action:@selector(handle&lt;#ItemName#&gt;Event:)];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>35F7D6D2-ADA0-469A-99D1-510E1EFB0646</string>
 	<key>IDECodeSnippetLanguage</key>
